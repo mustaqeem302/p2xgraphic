@@ -1,0 +1,535 @@
+/* ================================= 
+  Font-family
+==================================== */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+/* ================================= 
+  Common Style for elements
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Open Sans', arial, sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+	margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.main-header,.container{
+      width: 80%;
+      margin: 0 auto;
+      max-width: 1196px;
+}
+
+.container{
+    padding: 20px 0;
+}
+
+.background_color{
+    background-color:#fff0f2;
+}
+
+.reponsive-nav{
+    position: absolute;
+    z-index: 1000;
+    background-color: #fff0f2;
+    height:500%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.remove-icon,.tongle-btn{
+    display: none;
+}
+
+.remove-icon{
+    text-align: right;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.cross-size{
+    width: 12px;
+    display: inline-block;
+}
+
+.logo-img{width: 270px;}
+
+.menu-bars{
+    width: 100px;
+    display: inline-block;
+}
+
+.second_heading{
+    display: block;
+    font-size: 22px;
+    padding: 20px 20px 15px 20px;
+    color: #ed145b;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+.header-C2-r1 li a{
+    display: block;
+    color: #151515;
+    letter-spacing: 3px;
+    margin-bottom:10px;
+    font-weight: 400;
+}
+
+.nav-bottom-border{
+    border: 1px solid #fc3169;
+}
+
+.nav{
+    padding: 20px;
+}
+
+.header-C2-r1 li {
+    
+    padding-left: 30px;
+}
+
+
+.header-C2-r1 li a:hover{
+    color:#ed145b;
+}
+
+.li-border{
+    padding-bottom:5px; 
+}
+
+
+.li-border{
+    border-bottom: 1px solid #ed145b;
+}
+
+
+/* ---- index-page-Containers ---- */
+
+
+
+.col-r2 div{
+    padding: 20px;
+}
+.col-r2 div h4{
+    font-size:22px;
+    color:#1b1b1b;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.col-r2 div p{
+    text-align: center;
+    font-size: 16px;
+    color: #5e5e5e;
+    
+}
+
+.col-r2 span{
+    text-align: center;
+}
+
+.page_heading{
+    
+    display: block;
+    font-size:16px;
+    padding: 20px;
+    color:#ed145b;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.page_heading-padding{
+    padding: 0px;
+}
+.col-r1 div img{
+    width: 540px;
+    padding:20px;
+}
+
+
+/* ---- main header_Elements ---- */
+.header-C3-r2 h1{
+    display: inline-block;
+    font-size: 45px;
+    color: #151515;
+    font-family: 'Playfair Display', Georgia, serif;
+    line-height: 1.2;
+    font-weight: lighter;
+    margin: 25px 0 15px  0;   
+}
+
+.header-C3-r2 span{
+    font-size: 16px;
+    color: rgb(87, 87, 87);;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    letter-spacing: 1px;
+    line-height: 1.5;
+   
+}
+
+.header-C3-r2-a{
+
+    color: #fff;
+    background-color: #ed145b;
+    font-size: 14px;
+    display: inline-block;
+    padding: 15px 40px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+
+.header-C1-r1{
+    flex-basis: 40%;
+    text-align: right;
+}
+
+
+.header-C3-r1-img{width: 100%;}
+
+
+.header-C3-r2{
+    padding: 30px;
+    width: 35%;
+}
+
+.header-C1-r2{
+    font-size:22px;
+    display: inline-block;
+    padding-top:35px;
+    color:#ed145b;
+    text-align: right;
+    flex-grow: 1;
+    flex-basis:30%;
+    
+}
+
+.menu-bars{
+    
+    flex-basis: 18%;
+    
+}
+
+.menu-bars a{
+    display: inline;
+}
+
+.header-C3-r1{
+    width: 65%;
+}
+
+/* ---- ------------------------------------------------------portfolo-page ----------------------------------------------------------------------- */
+.protfolo-r1{
+    background-color: rgb(0, 0, 0);
+    margin:40px 0;
+    padding:  0px 0px 40px;
+}
+
+#portfoloio-heading-setting{
+    text-align: center;
+    font-size: 22px;
+}
+
+.protfolo-r2{
+    margin:40px 0;
+    padding: 40px 0px;
+}
+
+
+
+/* -----------------------------------------------------------rewiew-page-------------------------------------------------------------------------- */
+.review-style{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width:373px;
+    padding: 60px 40px;
+    height:353px;
+}
+
+ 
+
+.review-p-style{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 1.3;
+    color: #fff;
+}
+
+.review-h3-style{
+    font-size: 31px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #fff;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+.review-primay-container{
+    background-image:linear-gradient(rgba(22,22,22,0.4),rgba(22,22,22,0.4)), url(../img/cr=w_365,h_365.webp);
+}
+.review-secondary-container{
+    background-image:linear-gradient(rgba(22,22,22,0.4),rgba(22,22,22,0.4)), url(../img/cr=w_365,h_365.webp);
+}
+.review-third-container{
+     background-image:linear-gradient(rgba(22,22,22,0.4),rgba(22,22,22,0.4)), url(../img/cr=w_365,h_365.webp);
+}
+
+
+
+/* ---------------------------------------------------------- contact us page setting------------------------------------------------------------------ */
+.contact_us_container{
+
+}
+.contact_us_container_r-set{
+    text-align: center;
+    padding: 20px;
+}
+.r1_setting{
+    width: 70%;
+    margin: 0 auto;
+}
+.contact_us_h2{
+    color: rgb(27, 27, 27);
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.contact_us_p{
+    color: rgb(94, 94, 94);
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.contact_us_a{
+    font-size: 16px;
+    color: rgb(232, 19, 89);
+    cursor: pointer;
+    font-weight: 400;
+}
+.social_icon_size{
+    display: inline-block;
+    width: 42px;
+    margin: 20px;
+}
+
+.social_container{
+    text-align: center;
+    background-color: rgb(255, 240, 242);
+}
+.social-media-inner-container{
+    padding: 30px 0px;
+}
+
+
+/* ------------------------------------------------------------------------FAQ-page---------------------------------------------------------- */
+.heading-style{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #1b1b1b;
+}
+
+.FAQ-inner-col-style{
+    padding: 30px;
+    text-align: center;
+}
+
+.fAQ-col{
+    margin-bottom: 30px;
+    width: 30%;
+}
+
+/* --------------------------------------------------------------------------main_footer----------------------------------------------------------- */
+
+.main-footer {
+	background: #D61151;
+	padding: 40px 0;
+    color:#fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+.contus_social_medai_container{
+    text-align: center;
+    background-color: rgb(255, 240, 242);
+    margin-top: 30px;
+}
+
+.index_social_icon_size{
+    width:20px;
+    padding-bottom: 10px;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media only screen and (max-width: 1300px){
+    .header-C3-r2{
+        width: 40%;
+    }
+    .header-C3-r1{width: 60%;}
+
+    
+}
+@media only screen and (max-width: 1225px) {
+    .col-r1 div img{width: 480px;}
+    .header-C3-r2, .header-C3-r1{width: 50%;}
+}
+
+
+@media only screen and (max-width: 1130px){
+    .fAQ-col{
+        width: 48%;
+    }
+    
+     .fAQ-img{
+        width: 233px;
+    }
+    .faq-img-div{text-align: center;}
+    .header-C2-r1 {
+        display: block;
+    }
+    
+    
+    
+}
+@media only screen and (max-width: 1080px) {
+    .header-C3-r2 h1{font-size: 40px;}
+    .logo-img{width: 250px;}
+    .col-r1 div img{width: 450px;}
+    .header-C2{display: none;}
+    .main-header,.container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .header-C1{
+        padding-bottom: 20px;
+    }
+    .header-C1-r2{
+        flex-basis: 43%;
+        text-align: center;
+        padding-top: 0px;
+    }
+    
+    .review-container{
+        flex-direction: column;
+    }
+    
+    .review-style{
+        width: 100%;
+        height: 273px;
+    }
+    
+    .header-C2-r1{
+    flex-direction: column;
+    }
+    
+    .tongle-btn{
+        display: block;
+    }
+    
+    .li-border{
+        border-bottom: none;
+    }
+    #for-bold{font-weight: bolder;}
+    	
+}
+
+@media only screen and (max-width: 998px){
+   .header-C3-r2, .header-C3-r1{width: 100%;}
+   .header-C1-r2{
+            text-align: center;
+            padding-top: 0px;
+            flex-basis: 40%;
+    }
+     .header-C1-r2{
+        flex-basis: 43%;
+        text-align: center;
+        padding-top: 0px;
+    }
+    
+    .header-C3,.col{flex-direction: column;}
+    .header-C3-r1,.col-r1 div img{width: 100%;height: auto;}
+     .main-header,.container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .change_order{order: -1;}
+   
+    
+     .fAQ-col{
+      padding: 0px 20px 30px;
+      width: 100%;
+      margin: 0px 0px 30px;}
+    .header-C3-r2 h1{font-size: 40px;}
+    
+    }
+
+
+   
+
+@media only screen and (max-width: 769px) {
+ 
+    .header-C3,.col{flex-direction: column;}
+    .header-C3-r1,.col-r1 div img{width: 100%;}
+     .main-header,.container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header-C3-r2 h1{font-size: 30px;}
+    .header-C3-r2-a {
+        font-size: 12px;
+        padding: 15px 30px;
+    }
+    .header-C3-r2{
+        padding: 20px;
+    }
+    .nav-bottom-border{margin: 0px 20px;}
+    #portfoloio-heading-setting{margin-bottom: 0px;}
+    .col-r2 div p{font-size: 14px;}
+    .col-r2 div h4{font-size: 20px;}
+    .logo-img{width: 208px;}
+    .r1_setting{width: 100%;}
+    .header-C1-r1{
+        flex-basis: 91%;
+        text-align: center;}
+    .social_icon_size {
+    display: inline-block;
+    width: 35px;
+    margin: 10px;
+}
+    
+}
