@@ -41,10 +41,10 @@ a{
 }
 
 .reponsive-nav{
-    position: absolute;
+    position: fixed;
     z-index: 1000;
     background-color: #fff0f2;
-    height:500%;
+    height:100%;
     width: 100%;
     left: 0px;
     top: 0px;
