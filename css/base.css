@@ -405,7 +405,7 @@ a{
     
 }
 @media only screen and (max-width: 1225px) {
-    .col-r1 div img{width: 480px;}
+    .col-r1 div img{width: 400px;}
     .header-C3-r2, .header-C3-r1{width: 50%;}
 }
 
